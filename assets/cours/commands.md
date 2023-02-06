@@ -176,3 +176,17 @@ Pour pouvoir changer de branche, il faut absolument un espace de travaille vide 
 > Changer de branche pour la branche master et lancer à nouveau la commande `git log --oneline`.
 >
 > Qu'est-ce qui à changé entre les deux branches ?
+
+## Fusionner des branches
+
+Il est possible de fusionner une branche avec une autre c'est le **merge**
+
+Pour cela, rendez-vous sur la branche qui doit accépter la fusion (hôte) et lancer la commande suivante :
+
+```bash
+$ git checkout master
+$ git merge ma-branche
+```
+
+> **Généralement, le merge ou fusion est une opération réservé au remote (github, gitlab, bitbucket ...)**
+> Il est déconseillé d'utiliser la commande **merge**.
