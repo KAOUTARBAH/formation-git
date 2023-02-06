@@ -5,3 +5,9 @@ Dans cette formation vous apprendrez à manipuler git avec la ligne de commande 
 ## Suivez le guide !
 
 - [Git : Présentation et concepts](./assets/cours/presentation.md)
+- [Git : Maîtriser les lignes de commandes](./assets/cours/commands.md)
+- [Git : Maîtrisez VSCode](./assets/cours/vscode.md)
+- [Git : Les « Remotes »](./assets/cours/remotes.md)
+- [Git : Github](./assets/cours/github.md)
+- [Git : GitLab](./assets/cours/gitlab.md)
+- [Git : Bitbucket](./assets/cours/bitbucket.md)
