@@ -171,7 +171,7 @@ Pour pouvoir changer de branche, il faut absolument un espace de travaille vide 
 > Créer une branche "ma-branche" et vous rendre dessus.
 >
 > Ajouter et créer un commit avec un nouveaux fichier `README.md`
-> Maintenant utiliser la commande `git log --online` afin de consulter votre historique
+> Maintenant utiliser la commande `git log --oneline` afin de consulter votre historique
 >
 > Changer de branche pour la branche master et lancer à nouveau la commande `git log --oneline`.
 >
