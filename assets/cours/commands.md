@@ -60,6 +60,12 @@ Il est possible de consulter l'état de l'index avec la commande git :
 $ git status
 ```
 
+> Il est possible de lister tout les fichiers y compris dans les sous dossier avec l'option `u` :
+>
+> ```bash
+> $ git status -u
+> ```
+
 > Il n'affiche l'état de l'index c'est à dire : en **rouge** les nouveaux fichiers qui ne sont pas dans l'index en **orange** les fichiers modifié qui ne sont pas dans l'index et en **vert** les fichiers qui sont dans l'index
 
 Pour ajouter un fichier dans l'index il faut utiliser :
@@ -106,4 +112,67 @@ Une fois le commit réaliser, les fichiers indéxé (**vert**) vont disparaitre 
 >
 > En utilisant les commande `git status`, `git add` et `git commit` réaliser un premier commit avec le message "Premier commit" avec les fichier `index.html` et `style.css`
 >
-> En utilisnt les mếme commandes, réaliser un second commit avec le message "Second commit" avec le fichier `src/index.js`
+> En utilisant les mếme commandes, réaliser un second commit avec le message "Second commit" avec le fichier `src/index.js`
+
+Il est possible de consulter l'historique du projet avec la commande :
+
+```bash
+$ git log --oneline
+```
+
+> **Pour quitter l'historique, appuyer sur la touche `q`**
+
+## Les branches
+
+Lors de la création d'un projet git avec `git init`, la branche initiale est la branche `master`.
+
+> Il est possible de modifier ce comportement en spécifiant une option à git :
+>
+> ```bash
+> $ git config --global init.defaultBranch main
+> ```
+
+Il est possible de lister toutes les branches d'un projet avec la commande :
+
+```bash
+$ git branch
+```
+
+> La branche sur lequel vous vous situez sera afficher en **vert** avec une étoile devant
+
+Pour créer une nouvelle branche et se déplacer sur la branche il faut utiliser la commande suivante :
+
+```bash
+$ git checkout -b nom-de-ma-branche
+```
+
+> **Il est essentiel de créer sa propre branches pour tout ajout, modification, supression afin d'éviter tout problèmes de colisions**
+
+On peut utiliser la même commande, mais sans l'option `-b` pour changer de branche
+
+```bash
+$ git checkout master
+```
+
+Il est aussi possible de supprimer une branche avec la commande :
+
+```bash
+$ git branch -d ma-branche
+```
+
+> **Il est fortement déconseillé de supprimer la moindre branche d'un projet !!! Si on supprime une branche, on supprime une partie de l'historique du projet**
+
+### L'espace de travaille
+
+Pour pouvoir changer de branche, il faut absolument un espace de travaille vide : C'est à dire que la commande `git status` ne doit afficher aucun fichiers ! Si il existe des fichiers, alors il faudra faire un commit avant toutes opérations sur une branche.
+
+> **Entrainez-vous**
+>
+> Créer une branche "ma-branche" et vous rendre dessus.
+>
+> Ajouter et créer un commit avec un nouveaux fichier `README.md`
+> Maintenant utiliser la commande `git log --online` afin de consulter votre historique
+>
+> Changer de branche pour la branche master et lancer à nouveau la commande `git log --oneline`.
+>
+> Qu'est-ce qui à changé entre les deux branches ?
