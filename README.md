@@ -8,6 +8,10 @@ Afin de suivre cette formation assurez-vous tout d'abord d'avoir installer git s
 
 - [Téléchargez git](https://git-scm.com/downloads)
 
+Il faut aussi être "assez à l'aise" avec l'utilisation du terminal, si ce n'est pas le cas, voici un petit cours de rappel :
+
+- [Utiliser le terminal](https://raw.githubusercontent.com/Djeg/formation-js/session/23-01-23/07-01-23/assets/cours/terminal.pdf)
+
 ## Suivez le guide !
 
 - [Git : Présentation et concepts](./assets/cours/presentation.md)
