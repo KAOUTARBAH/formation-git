@@ -18,6 +18,6 @@ Il faut aussi être "assez à l'aise" avec l'utilisation du terminal, si ce n'es
 - [Git : Maîtriser les lignes de commandes](./assets/cours/commands.md)
 - [Git : Maîtrisez VSCode](./assets/cours/vscode.md)
 - [Git : Les « Remotes »](./assets/cours/remotes.md)
-- [Git : Github](./assets/cours/github.md)
+- [Git : Github & Gitflow](./assets/cours/github.md)
 - [Git : GitLab](./assets/cours/gitlab.md)
 - [Git : Bitbucket](./assets/cours/bitbucket.md)

@@ -109,3 +109,28 @@ $ git push nomDuRemote
 > Faite un commit (sur la branche principal) et ensuite un push !
 >
 > Partager l'url de votre github sur le chat :)
+
+## Ignorer des dossier et fichier avec git
+
+Il est possible dans un repository git d'ignore certains fichier et certains dossier. Tout ce passe dans un fichier à la racine du projet : `.gitignore`
+
+Dans ce fichier, c'est très simple, chaque dossier ou fichier ignoré par git se situe les uns à la suite des autres :
+
+```
+test/
+node_modules/
+request.http
+```
+
+Il existe un caractère spéciale dans ce fichier c'est `*`. Lorsqu'on utilise `*` on spécifie que l'on veut « tout caractères » :
+
+```
+# ici on ignore tout les fchier se terminant par .php
+*.php
+# ici on ignore tout les fichier ou dossier commencant par test
+test*
+# on ignore tout ce qui contient test
+*test*
+```
+
+> La caractère `#` permet de faire des commentaires.
