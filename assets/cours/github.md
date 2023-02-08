@@ -1,4 +1,4 @@
-# Github et GitFlow
+# Github
 
 Github est le « remote » le plus utilisé dans le monde entier, c'est un véritable éspace pour les développeur qui sert généralement de CV.
 
