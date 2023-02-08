@@ -59,6 +59,7 @@ Example de nom de branche :
 
 > Généralement la forme la plus répandu est celle ci :
 >
+> Généralement cette branche reçoit que des **Pull Request** (**merge request**).
 > `fix/nom-du-correctif`
 >
 > `features/nom-de-la-fonctionnalite`

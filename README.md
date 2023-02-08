@@ -22,3 +22,7 @@ Il faut aussi être "assez à l'aise" avec l'utilisation du terminal, si ce n'es
 - [Git : Méthodologie Git Flow](./assets/cours/git-flow.md)
 - [Git : GitLab](./assets/cours/gitlab.md)
 - [Git : Bitbucket](./assets/cours/bitbucket.md)
+
+## Exercices :
+
+- [Maîtrisez git flow](./assets/exos/git-flow-exo.md)
